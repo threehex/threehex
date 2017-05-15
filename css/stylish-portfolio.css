@@ -260,3 +260,40 @@ footer {
   bottom: 5px;
   right: 5px;
 }
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    width: 970px;
+  }
+  h3{
+    font-size: 18px;
+  }
+  .logo {
+      background-image: url(../img/threehexlabs@2x.png);
+      background-size: 600px 150px;
+      width: 600px;
+      height: 150px;
+      margin: 0px auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 750px;
+  }
+  h3{
+    font-size: 14px;
+  }
+  .logo {
+      background-image: url(../img/threehexlabs@2x.png);
+      background-size: 400px 100px;
+      width: 400px;
+      height: 100px;
+      margin: 0px auto;
+  }
+}
